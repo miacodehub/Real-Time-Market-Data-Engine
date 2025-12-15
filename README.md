@@ -34,8 +34,24 @@ Multi-symbol sharding
 Signal generation (VWAP cross, volatility spike)
 p99 / p999 latency tracking
 
+# Steps to run
+
+1. Make sure you have a C++17 compiler installed:
+   ```
+   g++ --version
+   ```
+2. Compile the program:
+   ```
+   g++ -O2 -std=c++17 main.cpp -pthread -o market_engine
+   ```
+3. Run the executable:
+   ```
+   ./market_engine
+   ```
+   
+# Output
+<img width="816" height="313" alt="image" src="https://github.com/user-attachments/assets/14e59359-cdcc-43a1-8a80-2c5b2ebe93fc" />
 
 
-Build
 
-Single-file, no external dependencies
+
